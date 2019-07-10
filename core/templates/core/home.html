@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block title %} {{ block.super }}{% endblock title %}
+
+{% block content %}
+<center>
+    {% load staticfiles %}
+        <link rel="stylesheet" href='{% static "css/bootstrap.min.css" %}'>
+        <link rel="stylesheet" href='{% static "css/bootstrap-theme.min.css" %}'>
+<div class="container" style="padding-top: 50px;">
+<img src="/static/images/axis.jpg" alt= width="350" height="600">
+    <footer class="container-fluid text-center">
+  <div class="container">
+  <h2>Harman Connected Services</h2>
+
+</div>
+</footer>
+</div>
+</center>
+{% endblock content %}
